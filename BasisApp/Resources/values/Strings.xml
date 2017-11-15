@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">BasisApp</string>
+  <string name="Homepage">BasisApp</string>
+  <string name="app_version">0.1</string>
   <string name="app_name">BasisApp</string>
+  <string name="createTableData">
+    create table data(id INTEGER PRIMARY KEY AUTOINCREMENT,
+    code ntext, description ntext)
+  </string>
 </resources>
