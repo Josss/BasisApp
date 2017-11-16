@@ -26,7 +26,6 @@ namespace BasisApp
         // context definieren
         private Context context;
 
-
         public void DownloadData()
         {
             Console.WriteLine("DownloadData gestart");
@@ -56,7 +55,6 @@ namespace BasisApp
             }
         }
 
-
         // database maken
         public void CreateDatabase()
         {
@@ -68,6 +66,7 @@ namespace BasisApp
             string createTableData
                 = res.GetString(Resource.String.createTableData);
 
+            Console.WriteLine("begin create database");
             Console.WriteLine(createTableData);
 
             string dbname = "_db_" + app_name + "_" + app_version + ".sqlite";
@@ -96,7 +95,7 @@ namespace BasisApp
             Console.WriteLine("einde create database");
         }
 
-        //constructor
+        // constructor
         public _database(Context context)
         {
             this.context = context;

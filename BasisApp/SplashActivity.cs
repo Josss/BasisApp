@@ -21,8 +21,7 @@ namespace BasisApp
         {
             base.OnCreate(bundle);
             _database db = new _database(this);
-
-            Thread.Sleep(2000);
+            Thread.Sleep(5000);
             StartActivity(typeof(Home));
         }
     }
