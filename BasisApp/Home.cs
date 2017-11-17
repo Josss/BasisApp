@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace BasisApp
 {
-    [Activity(Label = "BasisApp", MainLauncher = true, Icon = "@drawable/splash")]
+    [Activity(Label = "BlaBlaApp", MainLauncher = true, Icon = "@drawable/splash")]
     public class Home : Activity
     {
         int count = 1;
